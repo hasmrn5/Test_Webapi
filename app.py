@@ -15,4 +15,4 @@ def concatenate_strings():
     return jsonify({"concatenated_string": result})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000)
